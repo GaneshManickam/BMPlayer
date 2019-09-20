@@ -25,6 +25,9 @@ open class BMPlayerManager {
     /// tint color
     open var tintColor = UIColor.white
     
+    /// Progress tint color
+    open var progressMaximumTintColor = UIColor.lightGray
+    
     /// Loader
     open var loaderType = NVActivityIndicatorType.ballRotateChase
     

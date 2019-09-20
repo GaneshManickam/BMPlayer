@@ -555,7 +555,7 @@ open class BMPlayerControlView: UIView {
         timeSlider.value        = 0.0
         timeSlider.setThumbImage(BMImageResourcePath("Pod_Asset_BMPlayer_slider_thumb"), for: .normal)
         
-        timeSlider.maximumTrackTintColor = UIColor.clear
+        timeSlider.maximumTrackTintColor = BMPlayerConf.progressMaximumTintColor
         timeSlider.minimumTrackTintColor = BMPlayerConf.tintColor
         
         timeSlider.addTarget(self, action: #selector(progressSliderTouchBegan(_:)),
